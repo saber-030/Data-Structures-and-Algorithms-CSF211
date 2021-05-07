@@ -1,0 +1,66 @@
+Given an unsorted array arr consisting of N distinct elements, perform Quick Sort on it with some modifications.
+
+Given K, for all the subarrays of size > 1 which are generated during the recursive calls of the Quick Sort algorithm, take pivot element as (K % (size of the subarray))th element of the subarray (0-indexed)
+
+For a subarray [3, 6, 2, 5], its 0th element will be 3, 1st element will be 6 and so on.
+
+After selecting the pivot element, perform the partition operation.
+
+Let us say the pivot element was at some index - pivotIndex.
+
+The relative order of the elements to the left of the pivotIndex and to the right of the pivotIndex of the array on which we have performed partition operation should NOT differ from the currently executing subarray.
+
+For a subarray [3, 13, 7, 9, 19, 8, 12, 1, 6, 5] and K = 5, the pivot element will be 8.
+
+The array after partitioning should look like [3, 7, 1, 6, 5, 8, 13, 9, 19, 12]
+
+(So if we look at the left subarray (elements with values less than the pivot element) it is looking like [3, 7, 1, 6, 5], here it can be seen that the relative order hasn't changed from the subarray ([3, 13, 7, 9, 19, 8, 12, 1, 6, 5]). Same goes for the right subarray.)
+
+Print the pivot elements in the exact order in which they were seen.
+
+NOTE: While doing the recursive calls, first call the quick sort on left subarray and then on right subarray.
+
+Input Format
+
+The first line contains two space separated integers N and K
+
+The second line contains N space separated integers - arr[0], arr[1], arr[2], ... arr[N-1]
+
+Constraints
+
+(1 <= N <= 2000)
+
+(0 <= K <= 2000)
+
+(1 <= arr[i] <= 107)
+
+Output Format
+
+Print the pivot elements in the exact order in which they were seen (space separated).
+
+Sample Input 0
+
+5 3
+8 39 13 44 35
+Sample Output 0
+
+44 35 13
+Explanation 0
+
+Firstly, 44 will be selected as the pivot element, after partitioning, the left and the right subarrays will look like [8, 39, 13, 35] and []
+
+For the subarray [8, 39, 13, 35], 35 will be selected as the pivot element, after partitioning, the left and the right subarrays will look like [8, 13] and [39]
+
+Remember that we have to only print the pivot element of subarrays of size > 1
+
+For the subarray [8, 13], 13 will be selected as the pivot element, after partitioning, the left and the right subarrays will look like [8] and []
+
+So the final output will be all the pivot elements which we have seen so far - [44, 35, 13]
+
+Sample Input 1
+
+10 4
+3 13 7 9 19 8 12 1 6 5
+Sample Output 1
+
+19 8 5 3 7 9 13
