@@ -1,0 +1,34 @@
+The School of Technology & Computer Science (STCS) at the Timeless Institute of Fun and Recreation (TIFR) has  professors and  assistant professors. The Department of Science & Technology (DST) has recently invited all the STCS faculty members to submit project proposals. As a departmental policy, the Dean of STCS wants every faculty member to be involved in exactly one of the project proposals to be submitted, either as a principal investigator (PI) or as a co-investigator (CI) . However, the DST does not allow an assistant professor to be the PI for any project, and they can only be involved in the role of a CI. Therefore, the Dean has decided that exactly  project proposals should be submitted from STCS, where each project involves a professor as the PI and an assistant professor as a CI. Now, for each project proposal submitted jointly by two faculty members, the amount of money (in lakhs of rupees) granted by the DST for that project equals the number of years of research experience possessed by the least experienced among them. Naturally, the Dean wants to maximize the sum  of the amounts granted by DST after reviewing all the project proposals.
+
+Given the research experience (in years) for each of the  professors and each of the  assistant professors, your task is to help the Dean find out the maximum possible value of .
+
+Input Format
+
+The first line of the input contains a single integer  denoting the number of test cases.
+The description of  test cases follows.
+The first line of each test case contains a single integer .
+The second line contains  space-separated integers  that denote the number of years of experience for each of the  professors.
+The third line contains  space-separated integers  that denote the number of years of experience for each of the  assistant professors.
+Constraints
+
+ for each 
+Output Format
+
+For each test case, print a single line containing one integer ― the maximum value of .
+
+Sample Input 0
+
+2
+4
+8 8 10 12
+15 20 3 5
+3
+20 20 20
+10 10 10
+Sample Output 0
+
+30
+30
+Explanation 0
+
+In the first testcase, the four PI-CI pairings with experiences (8,3), (8,5), (10,20) and (12,15) lead to the maximum possible amount of (3+5+10+12) = 30 being provided as grant money to the department for all the projects.
