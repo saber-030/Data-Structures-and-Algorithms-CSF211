@@ -7,4 +7,6 @@ Codes written and maintained as part of CS F211- Data Structures and Algorithms
 3. Maximum Grant
 
 # LAB 2
+1. Promoting Diversity
+2. 
 
