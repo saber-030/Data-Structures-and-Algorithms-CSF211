@@ -19,3 +19,21 @@ Lab on Hashing
 2. Sherlock saves Watson
 3. Wanda Vision
 
+# LAB 4
+Lab on Queues
+1. Scandalous Shweta
+2. A Tricky Problemm
+3. Gotta Print'em all!
+
+# MIDSEM LAB
+Questions on Sorting, Searching, Hashing, Queues
+1. "Efficient" Crowd Control
+2. Distribute the Candies
+3. Constructing Pyramid
+
+
+
+
+# Disclaimer
+Some of these codes may include snippets that have been borrowed from other sources.
+
