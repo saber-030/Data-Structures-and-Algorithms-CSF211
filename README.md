@@ -31,6 +31,16 @@ Questions on Sorting, Searching, Hashing, Queues
 2. Distribute the Candies
 3. Constructing Pyramid
 
+# LAB 5
+Lab on Stacks and Linked List
+1. NumberOfSegments
+2. Advanced Bitwise Operations
+3. Balanced Bracket Sequence
+
+# LAB 6
+Lab on Trees (Binary Trees)
+1. 
+
 
 
 
