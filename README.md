@@ -46,11 +46,27 @@ Lab on Trees (Binary Trees)
 
 # LAB 7
 Lab on Graphs
-1. 
+1. Get the water
+2. Beautiful Graph Problem
+3. The Amazing Sailors
+
+# LAB 8
+Lab on Graphs (MST)
+1. Find the path
+2. Really Special Subtree
+3. Minimum MST Graph
+
+# End Semester Evaluation
+Questions on Sorting, Searching, Queues, Stacks, Linked List, Trees and Graphs
+1. Efficient Janitor
+2. Find the Nearest Hospital
+3. Interstellar 3
+4. Richness of Special Subsets
 
 
 
 
-# Disclaimer
+# Disclaimer and Credits
+I would like to thanks Dr. Pritam Bhattacharya and all the Teaching Assistants for helping me understand the data structures and the logic behind the algorithms and keeping regular labs for practice and providing all the necessary tools that enabled me to learn from this course.
 Some of these codes may include snippets that have been borrowed from other sources.
 
