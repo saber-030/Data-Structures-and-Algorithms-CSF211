@@ -39,6 +39,13 @@ Lab on Stacks and Linked List
 
 # LAB 6
 Lab on Trees (Binary Trees)
+1. Partial Reversals in Linked List
+2. Tree Traversal
+3. Waves is back!
+4. Box Sum
+
+# LAB 7
+Lab on Graphs
 1. 
 
 
